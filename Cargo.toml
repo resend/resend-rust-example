@@ -1,0 +1,8 @@
+[package]
+name = "resend-rust-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+resend-rs = "0.5.0"
+tokio = { version = "1.38.0", features = ["macros", "rt-multi-thread"] }
