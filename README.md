@@ -1,4 +1,4 @@
-# Resend with Example
+# Resend with Rust
 
 This example shows how to use Resend with [Rust](https://www.rust-lang.org).
 
@@ -13,7 +13,7 @@ To get the most out of this guide, you’ll need to:
 
 1. Replace `re_123456789` on `src/main.rs` with your API key.
 
-3. Execute the following command:
+2. Execute the following command:
 
 ```shell
 cargo run
