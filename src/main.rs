@@ -9,8 +9,8 @@ async fn main() -> Result<()> {
     let to = ["delivered@resend.dev"];
     let subject = "Hello World";
 
-    let email = CreateEmailBaseOptions::new(from, to, subject)
-        .with_html("<strong>It works!</strong>");
+    let email =
+        CreateEmailBaseOptions::new(from, to, subject).with_html("<strong>It works!</strong>");
 
     let _email = resend.emails.send(email).await?;
     println!("{:?}", _email);
